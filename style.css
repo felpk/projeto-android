@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+:root {
+    --fonteAndroid: 'Android', cursive;
+    --fontePadrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #39cd7b, #1A5C38);
+    width:auto;
+    min-height: 150px;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    padding-top: 40px;
+    margin-top: 0px;
+    min-width: 850px;
+    margin: auto;
+
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+
+
+}
+
+header > nav > a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main h2 {
+    font-family: var(--fonteAndroid);
+    color:#1A5C38
+}
+
+main > h2 {
+    font-size: 2em;
+    color: #124127;
+}
+
+main aside {
+    background-color: #C5EBD6 ;
+}
+
+main aside h2 {
+    background-color: #11c964;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-family: var(--fontePadrao);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+main aside p {
+    padding: 0px 15px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+#Irina {
+    min-width: 00px;
+    margin: auto;
+}
+main p {
+    margin: 15px 0px;
+    text-align:justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+    font-family: var(--fontePadrao);
+}
+
+main a {
+    background-color: #2885529f;
+    text-decoration: none;
+    padding: 3px;
+}
+
+main a:hover {
+    background-color: #39cd7b;
+    text-decoration: underline;
+}
